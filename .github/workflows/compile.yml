@@ -11,6 +11,3 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: LTLA/ActionsTesting@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    

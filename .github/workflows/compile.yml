@@ -10,7 +10,7 @@ jobs:
     name: Compile screenshots
     steps:
     - uses: actions/checkout@v2
-    - uses: iSEE/screenshots@master
+    - uses: LTLA/ActionsTesting@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
